@@ -70,8 +70,6 @@ launch() {
     cd sceptre/
 
     local STACK_NAME=$(echo ${CFN_CONFIG} | cut -d'.' -f1)
-    local SOURCE_REPO_URL=$(git remote get-url origin | cut -d':' -f2)
-    local SOURCE_REPO_BRANCH=$(git branch| grep -e '^*' | awk '{print $2}')
 
     if [ "z${SCRIPT_ACTION}" == "zdeploy" ]; then
         ACTION="launch -y"

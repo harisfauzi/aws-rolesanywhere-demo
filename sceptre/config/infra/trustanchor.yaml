@@ -12,7 +12,8 @@ sceptre_user_data:
       source:
         source_type: CERTIFICATE_BUNDLE
         source_data:
-          x509_certificate_data: {{var.root_ca_certificate}}
+          x509_certificate_data: |
+            {{var.root_ca_certificate|indent(width=12)}}
       tags:
         Name: rolesanywheretrustanchortest1
         Project: {{stack_group_config.project_code}}
