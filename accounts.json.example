@@ -1,0 +1,22 @@
+{
+  "Accounts": [
+    {
+      "Id": "123456789012",
+      "Name": "demo-management",
+      "RoleName": "deployment-role",
+      "Status": "ACTIVE"
+    },
+    {
+      "Id": "234567890123",
+      "Name": "demo-staging",
+      "RoleName": "deployment-role",
+      "Status": "ACTIVE"
+    },
+    {
+      "Id": "345678901234",
+      "Name": "demo-production",
+      "RoleName": "deployment-role",
+      "Status": "ACTIVE"
+    }
+  ]
+}

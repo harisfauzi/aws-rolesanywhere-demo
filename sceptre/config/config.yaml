@@ -1,0 +1,4 @@
+---
+project_code: rolesanywheredemo
+region: {{ var.aws_region | default('us-west-2') }}
+source_repo_url: git@github.com:harisfauzi/aws-rolesanywhere-demo.git

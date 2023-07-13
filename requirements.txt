@@ -1,0 +1,12 @@
+awscli
+boto
+boto3
+botocore
+Jinja2
+jinja2-cli
+sceptre==4.1.0
+sceptre-cmd-resolver
+sceptre-file-resolver
+sceptre-ssm-resolver
+zipp
+sceptre-aws-ami-resolver @ git+https://github.com/harisfauzi/sceptre-aws-ami-resolver.git
